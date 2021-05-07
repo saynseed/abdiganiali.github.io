@@ -1,0 +1,240 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,700;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+body{
+	margin:0;
+	font-family: 'Montserrat', sans-serif;
+	background-color: #e3e4d7;
+}
+
+header{
+	background-color:#e3e4d7!important;
+	color:#6c8c5c;
+	padding-top: 10px;
+}
+
+.header {
+	width: 60%;
+	align-content: left;
+	padding-top: 20px;
+}
+.row {
+	margin: 0px;
+}
+
+h1{
+	margin:0;
+	padding-top: 20px;
+	font-size: 96px;
+	font-weight: 800;
+}
+p{
+	font-size: 18px;
+}
+nav{
+	background-color: #398E71;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+nav ul{
+	list-style-type: none;
+	text-align:center;
+	padding-left:0;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+nav li{
+	display:inline;
+	padding: 5px 20px;
+	font-size: 22px;
+	font-weight: 600;
+}
+nav a{
+	text-decoration:none;
+	color: #ffffff;
+
+}
+
+nav a:link{
+	color:white;
+}
+nav a:visited{
+	color: black;
+}
+nav a:hover{
+	color:#0b2d39;
+}
+nav a:active{
+	color: blue;
+}
+
+.navbar {
+	color: #ffffff;
+}
+
+main{
+	max-width: 1024px;
+	margin: 0 auto;
+	padding:5px;
+
+}
+
+.resume {
+	padding-top: 20px;
+}
+
+hr{
+	max-width: 80%;
+	line-height: 4px;
+}
+
+.bg-light {
+	background-color: #0e9623!important;
+}
+
+.myaddress{
+    padding-top: 20px;
+    text-align:  center;
+}
+
+
+.ali{
+	float:left;
+	max-width:40%;
+	height: auto;
+    display:block;
+    margin-right: 4%;
+    
+}
+
+.aboutme{ 
+	padding-top:50px;
+	padding-bottom:50px;
+}
+
+.aboutme ul{
+	overflow:hidden;
+}
+
+footer{
+	clear:both;
+	background-color:#0e9623;
+	color:white;
+	padding: 50px;
+}
+
+footer p{
+	text-align:center;
+	max-width: 1024px;
+	margin:0 auto;
+}
+
+.icon {
+	list-style-type: none;
+	text-align:left;
+	padding-left:0;
+	padding-top:20px;
+	padding-bottom:5px;
+	
+}
+
+.icon li a {
+	color: #ffffff;
+	font-size: 1.2em;
+}
+
+.icon li {
+	padding-bottom: 10px;
+	text-decoration: none;
+}
+
+
+.define {
+	padding: 20px 40px;
+	text-align:justify;
+	letter-spacing: 3px;
+	font-weight: 500;
+}
+
+
+
+ h4{
+	text-align:left;
+}
+
+ h3{
+	font-size: 28px;
+}
+
+#homehero{
+    background-image: url(images/lizard.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    max-width: 1200px;
+    height: 400px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    
+    
+}
+
+.headersize {
+	font-size: 22px;
+}
+
+.text {
+	padding: 20px 0px;
+	
+}
+
+.gallery {
+    width:100%;
+    height:auto;
+    padding-top: 30px;
+}
+
+.gallery .gallery-thumbnails img {
+    width:100px;
+    height:75px;
+    margin: 3px 10px 10px 0;
+    border-radius: 15px;
+    
+}
+
+.gallery .gallery-thumbnails img:hover {
+    opacity: .8;
+    cursor: pointer;
+    
+}
+
+.gallery  img#preview {
+    padding: 1px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto !important;
+    display: block !important;
+    border-radius: 15px;
+}
+
+
+
+@media screen and (max-width: 375px) {
+	h1 {
+	  font-size: 28px;
+	}
+  }
+
+  @media screen and (max-width: 540px) {
+	h1 {
+	  font-size: 36px;
+	}
+  }
+
+  @media screen and (max-width: 992px) {
+	h1 {
+	  font-size: 60px;
+	}
+  }
